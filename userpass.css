@@ -1,0 +1,125 @@
+body { 
+	display: flex; 
+	justify-content: center; 
+	margin: 0; 
+	padding: 0; 
+	height: 100vh; 
+	box-sizing: border-box; 
+	text-align: center; 
+	background:url("calender backgroung.PNG");
+	
+} 
+.container { 
+	width: 100%; 
+	max-width: 500px; 
+	margin: 5px; 
+} 
+
+.container h1 { 
+	box-shadow: 0 50px 40px rgba(0, 0, 0, 0.25); 
+	background-color: whitesmoke;
+	color: darkred;
+} 
+
+.section { 
+	background-color:white; 
+	padding: 50px 30px; 
+	border: 2px solid black; 
+	border-radius: 5%; 
+	box-shadow: 0 50px 35px rgba(0, 0, 0, 0.25); 
+} 
+#my-qr-reader { 
+	padding: 20px !important; 
+	border: 1.5px solid #b2b2b2 !important; 
+	border-radius: 8px; 
+} 
+
+#my-qr-reader img[alt="Info icon"] { 
+	display: none; 
+} 
+
+#my-qr-reader img[alt="Camera based scan"] { 
+	width: 100px !important; 
+	height: 100px !important; 
+} 
+
+button { 
+	padding: 10px 20px; 
+	border: 1px solid #b2b2b2; 
+	outline: none; 
+	border-radius: 0.25em; 
+	color: white; 
+	font-size: 15px; 
+	cursor: pointer; 
+	margin-top: 15px; 
+	margin-bottom: 10px; 
+	background-color: #008000ad; 
+	transition: 0.3s background-color; 
+} 
+
+button:hover { 
+	background-color: #008000; 
+} 
+
+#html5-qrcode-anchor-scan-type-change { 
+	text-decoration: none !important; 
+	color: #1d9bf0; 
+}
+.user{
+    font-size:large;
+}
+video { 
+	width: 100% !important; 
+	border: 1px solid #b2b2b2 !important; 
+	border-radius: 0.25em; 
+}
+div {
+    margin: 0 auto;
+    
+  }
+  
+  .box {
+    border-width: 1px;
+    text-indent: 5px;
+    padding: .5em 1em;
+    width: 90%;
+  }
+  
+  
+  
+  /* This approximates the ease-in-out-bounce animation from easings.net, which would require a plug-in to use*/
+  @keyframes bounce {
+    0% {
+      transform: translateX(0px);
+      timing-function: ease-in;
+    }
+    37% {
+      transform: translateX(5px);
+      timing-function: ease-out;
+    }
+    55% {
+      transform: translateX(-5px);
+      timing-function: ease-in;
+    }
+    73% {
+      transform: translateX(4px);
+      timing-function: ease-out;
+    }
+    82% {
+      transform: translateX(-4px);
+      timing-function: ease-in;
+    }
+    91% {
+      transform: translateX(2px);
+      timing-function: ease-out;
+    }
+    96% {
+      transform: translateX(-2px);
+      timing-function: ease-in;
+    }
+    100% {
+      transform: translateX(0px);
+      timing-function: ease-in;
+    }
+  }
+  
